@@ -1,0 +1,124 @@
+/* line 1, style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+/* line 9, style.scss */
+html, body, .box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+/* line 14, style.scss */
+html, body, .header {
+  position: relative; }
+
+/* line 15, style.scss */
+.header a:nth-child(2), .mark {
+  position: absolute; }
+
+/* line 17, style.scss */
+html, body {
+  font-size: 100px;
+  font-family: "microsoft yahei";
+  background: #818D9B; }
+
+/* line 27, style.scss */
+.box {
+  font-size: .16rem;
+  display: flex;
+  flex-direction: column; }
+
+/* line 33, style.scss */
+.main {
+  width: 100%;
+  height: auto;
+  flex: 1;
+  overflow-y: scroll; }
+
+/* line 39, style.scss */
+.header {
+  width: 100%;
+  height: .5rem;
+  line-height: .5rem;
+  background: #000;
+  justify-content: space-between;
+  display: flex;
+  padding: 0 5%; }
+  /* line 48, style.scss */
+  .header a {
+    color: #eee; }
+    /* line 50, style.scss */
+    .header a i {
+      font-size: 20px; }
+  /* line 54, style.scss */
+  .header a:nth-child(2) {
+    left: 15%;
+    top: 0; }
+
+/* line 61, style.scss */
+.mark {
+  width: 90%;
+  height: 3.5rem;
+  background: #fff;
+  border-radius: 8px;
+  top: 20%;
+  left: 5%;
+  text-align: center; }
+  /* line 70, style.scss */
+  .mark .top {
+    width: 80%;
+    height: .5rem;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0; }
+    /* line 76, style.scss */
+    .mark .top .p1 {
+      width: 60%;
+      height: .3rem;
+      background: red;
+      display: inline-block;
+      background: url(../img/logo_01.png) no-repeat center;
+      background-size: 100% 100%; }
+    /* line 84, style.scss */
+    .mark .top .p2 {
+      color: #555; }
+
+/* line 89, style.scss */
+.center {
+  width: 70%;
+  display: inline-block;
+  margin-top: .5rem; }
+  /* line 93, style.scss */
+  .center small {
+    width: 100%;
+    height: .4rem;
+    padding: 15px 0;
+    border-bottom: 1px solid #666;
+    display: inline-block; }
+    /* line 99, style.scss */
+    .center small span {
+      width: 15px;
+      height: 20px;
+      display: inline-block;
+      margin-right: 10px; }
+      /* line 105, style.scss */
+      .center small span img {
+        width: 100%;
+        height: 100%; }
+    /* line 110, style.scss */
+    .center small input {
+      border: none; }
+
+/* line 117, style.scss */
+.btns {
+  margin-top: 28px;
+  display: inline-block;
+  width: 70%;
+  height: 30px;
+  background: #2DA86F;
+  color: #fff;
+  border-radius: 7px; }
